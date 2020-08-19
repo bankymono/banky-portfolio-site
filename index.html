@@ -1,11 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./styles/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bankole Ayodeji</title>
 </head>
 <body>
-    <h1>Welcome to my Portfolio</h1>
+
+        <!-- MY PORTFOLIO PAGE IS DIVIDED INTO THREE PARTS-->
+        <!-- TOP SECTION-->    
+        <section class="top-section">
+
+                <!--NAVBAR BEGINS-->
+                <nav>
+                    <div class="logo">
+                        Ayodeji
+                    </div>
+                    
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="https://www.linkedin.com/in/bankole-ayodeji-810b59101">Connect</a></li>
+                        </ul>      
+                </nav>
+                <!-- NAVBAR ENDS-->
+
+                <!-- BRIEF INTRO SUBSECTION-->
+                <div class="brief-intro">
+                    <div>
+                        <div class="hello">Hello,</div>
+                        <div class="name">I'm Ayodeji</div>
+                        <div class="intro">
+                            A Fellow at TIIDELab and a Backend Developer 
+                        </div>
+                        <div class="intro-call-to-action">HIRE ME</div>
+                    </div>
+                    <img class="top-section-image" src="./assets/images/landing_page_image_png_2.png">
+    
+                </div>
+        </section>
+
+        <!--MIDDLE SECTION FOR ABOUT-->
+        <section id='about' class="about-section">
+            <div class="img-container">
+
+                    <img  src="./assets/images/Ayodeji_small.jpg" alt="" srcset="">
+                    
+            </div>
+            <div>
+                <h1>About Me</h1>
+                <div class="thin-line"></div>
+                <div class="about-content">
+                    I am a junior web developer. I recently enrolled in TIIDElab to hone my software skills. I am solution-oriented and I see myself building products that add value to an organization and my community.
+                <div>Skills include HTML, CSS, Javascript, React, Node.js.</div> 
+                </div>
+                <div class="about-call-to-action">
+                       <button class="hire">Hire Me</button>
+                    <a target="_blank"href="./assets/Ayodeji Bankole CV (1).pdf" class="download">Download CV</a>
+                    
+                </div>
+            </div>
+        </section>
+        <!--END OF ABOUT-->
+
+        <!-- FOOTER SECTION-->
+        <footer class="footer-section">
+            <div class="newsletter-header">NEWSLETTER</div>
+            <div class="thin-line"></div>
+            <div class="newsletter-section">
+                Enter your email here to get my monthly newsletter
+                <div></div>
+                <input name="newsletter" type="text"/><button>Subscribe</button>
+            </div>
+        </footer>
 </body>
 </html>

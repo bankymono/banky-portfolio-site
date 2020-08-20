@@ -18,18 +18,18 @@
                         Ayodeji
                     </div>
                     
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="https://www.linkedin.com/in/bankole-ayodeji-810b59101">Connect</a></li>
-                        </ul>      
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="https://www.linkedin.com/in/bankole-ayodeji-810b59101">Connect</a></li>
+                    </ul>      
                 </nav>
                 <!-- NAVBAR ENDS-->
 
                 <!-- BRIEF INTRO SUBSECTION-->
                 <div class="brief-intro">
-                    <div>
+                    <div class="intro-wrapper">
                         <div class="hello">Hello,</div>
                         <div class="name">I'm Ayodeji</div>
                         <div class="intro">
@@ -37,19 +37,20 @@
                         </div>
                         <div class="intro-call-to-action">HIRE ME</div>
                     </div>
-                    <img class="top-section-image" src="./assets/images/landing_page_image_png_2.png">
-    
+                    
+                    <div class="image-wrapper">
+                        <img class="top-section-image" src="./assets/images/banky_intro_image_v2.png">
+                    </div>
                 </div>
         </section>
 
         <!--MIDDLE SECTION FOR ABOUT-->
         <section id='about' class="about-section">
             <div class="img-container">
-
-                    <img  src="./assets/images/Ayodeji_small.jpg" alt="" srcset="">
-                    
+                    <div class="img-frame"></div>
+                    <img  class="about-image" src="./assets/images/banky_about_image.jpg" alt="" srcset="">
             </div>
-            <div>
+            <div class="about-me-container">
                 <h1>About Me</h1>
                 <div class="thin-line"></div>
                 <div class="about-content">
@@ -64,6 +65,20 @@
             </div>
         </section>
         <!--END OF ABOUT-->
+        <section class="contact-section">
+            <div class="contact-header">Contact</div>
+            <div class="thin-line"></div>
+            <form class="contact-form" action="" method="post">
+                <input type="email" placeholder="Enter your email address" name="" id="">
+                <input type="text" placeholder="Subject" name="" id="">
+                <textarea placeholder="Message...">
+                    
+                </textarea>
+                <button>
+                    Submit
+                </button>
+            </form>
+        </section>
 
         <!-- FOOTER SECTION-->
         <footer class="footer-section">
@@ -71,7 +86,6 @@
             <div class="thin-line"></div>
             <div class="newsletter-section">
                 Enter your email here to get my monthly newsletter
-                <div></div>
                 <input name="newsletter" type="text"/><button>Subscribe</button>
             </div>
         </footer>

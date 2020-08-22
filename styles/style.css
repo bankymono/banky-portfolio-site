@@ -107,7 +107,7 @@ nav ul{
 }
 .img-frame{
     width: 12%;
-    height: 45%;
+    height: 30%;
     position: absolute;
     border: 6px #ffcc33 solid;
     top: 35%;
@@ -118,7 +118,7 @@ nav ul{
 .about-image{
     position: absolute;
     z-index: 2;
-    height: 45%;
+    height: 30%;
     width: 12%;
     top: 28%;
     left: 35%;

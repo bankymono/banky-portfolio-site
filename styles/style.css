@@ -12,7 +12,8 @@ img, object video, canvas{
     max-width: 100%;
 }
 .top-section{
-    background-image: url('../assets/images/image_background_image_2.jpg');
+    background-image: url('../assets/images/portfolio_background_top.svg');
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
@@ -83,7 +84,8 @@ nav ul{
 
 /* ABOUT SECTION */
 .about-section{
-    background-color: #333333;
+    /*background-color: #333333;*/
+    background-color: red;
     display: flex;
     width: 100%;
     align-items: center;
@@ -93,14 +95,17 @@ nav ul{
 }
 
 .about-section > div{
-    width: calc(100% - 100px);
-    margin-right: 50px;
+    width: calc(100% - 200px);
+    margin-right: 100px;
 }
 
 .about-section > div:last-of-type{
     margin-right: 0;
 }
 
+.image-container{
+    position: relative;
+}
 .img-frame{
     width: 12%;
     height: 50%;

@@ -84,8 +84,7 @@ nav ul{
 
 /* ABOUT SECTION */
 .about-section{
-    /*background-color: #333333;*/
-    background-color: red;
+    background-color: #333333;
     display: flex;
     width: 100%;
     align-items: center;

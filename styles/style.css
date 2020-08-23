@@ -37,9 +37,16 @@ nav .logo{
     font-size: 2rem;
     font-weight: 700;
     margin-left: 50px;
+    flex: 3;
 }
 
+nav #menu-bar{
+    flex: 1;
+}
 
+nav #menu-bar ul li{
+    margin-right: 50px;
+}
 nav ul{
     width: 50%;
     display: flex;
@@ -68,7 +75,7 @@ nav ul{
 }
 
 .top-section .brief-intro .intro{
-    padding: 10px 0;
+    padding: 10px 50px 10px 0;
     font-size: 1.2rem;
 }
 

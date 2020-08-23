@@ -27,38 +27,42 @@ img, object video, canvas{
 
 .top-section nav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 12px 2%;
 }
 
-
 nav .logo{
+    width: 50%;
     font-size: 2rem;
     font-weight: 700;
-    margin-left: 50px;
-    flex: 3;
 }
 
 nav #menu-bar{
-    flex: 1;
-}
-
-nav #menu-bar ul li{
-    margin-right: 50px;
-}
-nav ul{
     width: 50%;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    font-size: 1.5rem;
 }
 
+nav #menu{
+    width: 98%;
+    display: flex;
+    font-size: 1.5rem;
+    margin-left: 2% ;
+}
+
+
+nav #menu-bar #menu div{
+    text-align: center;
+    margin-right: 5px;
+    width: calc((100% - 20px) /5);
+
+}
+
+nav #menu-bar #menu div:last-of-type{
+    margin-right: 0;
+    
+}
 .top-section .brief-intro{    
     display: flex;
     align-items: center;
-
 }
 
 .brief-intro .intro-wrapper{    
@@ -98,7 +102,7 @@ nav ul{
 }
 
 /* ABOUT SECTION */
-/*
+
 .about-section{
     background-color: #333333;
     display: flex;
@@ -264,4 +268,32 @@ nav ul{
 
 a{
     text-decoration: none;
+}
+
+@media screen and (max-width:500px){
+    #hamburger{
+        width: 35px;
+        height: 30px;
+        margin: 30px 0 20px 20px;
+        cursor: pointer;
+
+    }
+    .bar{
+        height: 5px;
+        width: 100%;
+        background-color: #ffcc33;
+        display: block;
+        border-radius: 5px;
+    }
+    #bar1{
+        transform: translateY(-4px);
+    }
+
+    #bar3{
+        transform: translateY(4px);
+    }
+
+    .change .bar {
+        background-color: white;
+    }
 }

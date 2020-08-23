@@ -18,17 +18,18 @@
                         Ayodeji
                     </div>
                     <div id='menu-bar'>
-                        <div id="hamburger">
+                        <div id="hamburger" onclick="onClickMenu()">
                             <div id="bar1" class="bar"></div>
                             <div id="bar2" class="bar"></div>
                             <div id="bar3" class="bar"></div>
                         </div>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="https://www.linkedin.com/in/bankole-ayodeji-810b59101">Connect</a></li>
-                        </ul>
+                        <div id="menu">
+                            <div id="home"><a href="#">Home</a></div>
+                            <div id="about"><a href="#about">About</a></div>
+                            <div id="portfolio"><a href="#">Portfolio</a></div>
+                            <div id="connect"><a href="https://www.linkedin.com/in/bankole-ayodeji-810b59101">Connect</a></div>
+                            <div id="contact"><a href="#">Contact</a></div>
+                        </div>
                     </div>    
                 </nav>
                 <!-- NAVBAR ENDS-->
@@ -95,5 +96,11 @@
                 <input name="newsletter" type="text"/><button>Subscribe</button>
             </div>
         </footer>
+
+        <script >
+            const onClickMenu=()=>{
+                document.querySelector('#hamburger').classList.toggle("change")         
+            }
+        </script>
 </body>
 </html>

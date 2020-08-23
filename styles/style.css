@@ -55,41 +55,49 @@ nav ul{
     font-size: 1.5rem;
 }
 
-.top-section .brief-intro{
-    
+.top-section .brief-intro{    
     display: flex;
     align-items: center;
-    justify-content: center;
+
 }
 
+.brief-intro .intro-wrapper{    
+    width: 50%;
+    padding: 0 10%;
+}
 
-.top-section .brief-intro .hello{
+.brief-intro .image-wrapper{    
+    width: 50%;
+}
+
+.brief-intro .hello{
     font-size: 1rem;
 }
 
-.top-section .brief-intro .name{
+.brief-intro .name{
     color: #ffcc33;
     padding: 10px 0;
     font-size: 1.7rem;
     font-weight: 700;
 }
 
-.top-section .brief-intro .intro{
+.brief-intro .intro{
     padding: 10px 50px 10px 0;
     font-size: 1.2rem;
 }
 
-.top-section .brief-intro .intro-call-to-action{
+.brief-intro .intro-call-to-action{
  border: 2px solid #ffcc33;
  padding: 15px 30px;
- width: 45%;
  color: #ffcc33;
  text-align: center;
  border-radius: 5px;
  cursor: pointer;
+ width: 30%;
 }
 
 /* ABOUT SECTION */
+/*
 .about-section{
     background-color: #333333;
     display: flex;

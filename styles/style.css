@@ -231,7 +231,6 @@ nav #menu-bar #menu div:last-of-type{
 }
 
 .contact-form button{ 
-    
     color: #fff;
     background-color: #ffcc33;
     border: none;
@@ -286,10 +285,33 @@ nav #menu-bar #menu div:last-of-type{
     height: 50%;
 }
 
+body{
+    background-color: blue;
+}
+.testimonial-section{
+    padding-top: 100px;
+    background-color:#222222; 
+}
+
+.testimonial-header{
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.testimonial-container{
+    margin:0 6rem;
+    padding-bottom: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:6rem;    
+}
+
+
 /*FOOTER SECTION */
 
 .footer-section{
-    background-color: #222222;;
+    background-color: #333333;
     height: 20vh;
     padding : 10px 18%;
 }
@@ -606,8 +628,17 @@ a{
         margin: 10px;
     }
 
+    .testimonial-container{
+        margin: 0 6rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap:6rem;
+    }
+
+    
+
     .footer-section{
-        background-color: #222222;;
+        background-color: #333333;
         height: auto;
         padding : 10px 18%;
     }

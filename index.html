@@ -1,187 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./styles/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bankole Ayodeji</title>
+    <title>Document</title>
 </head>
 <body>
-
-        <!-- MY PORTFOLIO PAGE IS DIVIDED INTO THREE PARTS-->
-        <!-- TOP SECTION-->    
-        <section class="top-section">
-
-                <!--NAVBAR BEGINS-->
-                <nav>
-                    <div class="logo">
-                        Ayodeji
-                    </div>
-                    <div id='menu-bar'>
-                        <div id="hamburger" onclick="onClickMenu()">
-                            <div id="bar1" class="bar"></div>
-                            <div id="bar2" class="bar"></div>
-                            <div id="bar3" class="bar"></div>
-                        </div>
-                        <div id="menu" class="nav-list-container">
-                            <div id="home"><a href="#">Home</a></div>
-                            <div id="about"><a href="#about">About</a></div>
-                            <div id="portfolio"><a href="#">Portfolio</a></div>
-                            <div id="connect"><a href="https://www.linkedin.com/in/bankole-ayodeji-810b59101">Connect</a></div>
-                            <div id="contact"><a href="#">Contact</a></div>
-                        </div>
-                    </div> 
-                    <div class="menu-bg" id="menu-bg">
-                    </div>   
-                </nav>
-                <!-- NAVBAR ENDS-->
-
-                <!-- BRIEF INTRO SUBSECTION-->
-                <div class="brief-intro">
-                    <div class="intro-wrapper">
-                        <div class="hello">Hello,</div>
-                        <div class="name">I'm Ayodeji</div>
-                        <div class="intro">
-                            A Fellow at TIIDELab and a Backend Developer 
-                        </div>
-                        <div class="intro-call-to-action">HIRE ME</div>
-                    </div>
-                    
-                    <div class="image-wrapper">
-                        <img class="top-section-image" src="./assets/images/banky_intro_image.png">
-                    </div>
-                </div>
-        </section>
-
-        <!--MIDDLE SECTION FOR ABOUT-->
-        <section id='about' class="about-section">
-            <div class="img-container">
-                    <div class="img-frame"></div>
-                    <img  class="about-image" src="./assets/images/banky_about_image.jpg" alt="" srcset="">
-            </div>
-            <div class="about-me-container">
-                <h1>About Me</h1>
-                <div class="thin-line"></div>
-                <div class="about-content">
-                    I am a junior web developer. I recently enrolled in TIIDElab to hone my software skills. I am solution-oriented and I see myself building products that add value to an organization and my community.
-                <div>Skills include HTML, CSS, Javascript, React, Node.js.</div> 
-                </div>
-                <div class="about-call-to-action">
-                       <button class="hire">Hire Me</button>
-                    <a target="_blank"href="./assets/Ayodeji Bankole CV (1).pdf" class="download">Download CV</a>
-                    
-                </div>
-            </div>
-        </section>
-        <!--END OF ABOUT-->
-        <section class="contact-section">
-            <div class="contact-header">Contact</div>
-            <div class="thin-line"></div>
-            <form class="contact-form"  method="post" data-netlify="true">
-                <input type="email" placeholder="Enter your email address" name="email" >
-                <input type="text" placeholder="Subject" name="message-subject" >
-                <textarea name="message">
-                    
-                </textarea>
-                <button type="submit">
-                    Submit
-                </button>
-            </form>
-        </section>
-
-        <section class="project-section">
-            <h1 class="project-header">Projects</h1>
-            <div class="project-thin-line"></div>
-            <div class="container">
-                <div class="project-card">
-                    <div class="project-info-container">
-                        <svg id="placeholder-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 363 380"><defs><style>.cls-1{fill:#b7b7b7;}.cls-2{font-size:65.48px;fill:#666;font-family:MyriadPro-Regular, Myriad Pro;}.cls-3{letter-spacing:-0.01em;}.cls-4{letter-spacing:-0.02em;}</style></defs><title>img placeholder</title><rect class="cls-1" width="363" height="380"/><text class="cls-2" transform="translate(38.15 209.22) scale(0.85 1)">I<tspan class="cls-3" x="15.65" y="0">M</tspan><tspan class="cls-4" x="67.64" y="0">A</tspan><tspan x="106.73" y="0">GE HERE</tspan></text></svg>
-                        <h1><a href="#">Project title</a></h1>
-                        <div class="proj-desc">
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit. 
-                            Pellentesque eu commodo lorem. Maecenas elit justo, 
-                            laoreet in leo vitae, lobortis convallis metus
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-info-container">
-                        <svg id="placeholder-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 363 380"><defs><style>.cls-1{fill:#b7b7b7;}.cls-2{font-size:65.48px;fill:#666;font-family:MyriadPro-Regular, Myriad Pro;}.cls-3{letter-spacing:-0.01em;}.cls-4{letter-spacing:-0.02em;}</style></defs><title>img placeholder</title><rect class="cls-1" width="363" height="380"/><text class="cls-2" transform="translate(38.15 209.22) scale(0.85 1)">I<tspan class="cls-3" x="15.65" y="0">M</tspan><tspan class="cls-4" x="67.64" y="0">A</tspan><tspan x="106.73" y="0">GE HERE</tspan></text></svg>
-                        <h1><a href="#">Project title</a></h1>
-                        <div class="proj-desc">
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit. 
-                            Pellentesque eu commodo lorem. Maecenas elit justo, 
-                            laoreet in leo vitae, lobortis convallis metus
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-info-container">
-                        <svg id="placeholder-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 363 380"><defs><style>.cls-1{fill:#b7b7b7;}.cls-2{font-size:65.48px;fill:#666;font-family:MyriadPro-Regular, Myriad Pro;}.cls-3{letter-spacing:-0.01em;}.cls-4{letter-spacing:-0.02em;}</style></defs><title>img placeholder</title><rect class="cls-1" width="363" height="380"/><text class="cls-2" transform="translate(38.15 209.22) scale(0.85 1)">I<tspan class="cls-3" x="15.65" y="0">M</tspan><tspan class="cls-4" x="67.64" y="0">A</tspan><tspan x="106.73" y="0">GE HERE</tspan></text></svg>
-                        <h1><a href="#">Project title</a></h1>
-                        <div class="proj-desc">
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit. 
-                            Pellentesque eu commodo lorem. Maecenas elit justo, 
-                            laoreet in leo vitae, lobortis convallis metus
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="testimonial-section">
-            <h1 class="testimonial-header">Testimonials</h1>
-            <div class="project-thin-line"></div>
-            <div class="testimonial-container">
-                <div class="testimonial-card">
-                    <div class="testimonial-info-container">
-                        <svg id="placeholder-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 363 380"><defs><style>.cls-1{fill:#b7b7b7;}.cls-2{font-size:65.48px;fill:#666;font-family:MyriadPro-Regular, Myriad Pro;}.cls-3{letter-spacing:-0.01em;}.cls-4{letter-spacing:-0.02em;}</style></defs><title>img placeholder</title><rect class="cls-1" width="363" height="380"/><text class="cls-2" transform="translate(38.15 209.22) scale(0.85 1)">I<tspan class="cls-3" x="15.65" y="0">M</tspan><tspan class="cls-4" x="67.64" y="0">A</tspan><tspan x="106.73" y="0">GE HERE</tspan></text></svg>
-                        <h1><a href="#">Lorem, ipsum.</a></h1>
-                        <div class="proj-desc">
-                            <span class="quote">''</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, itaque. <span class="quote">''</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-info-container">
-                        <svg id="placeholder-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 363 380"><defs><style>.cls-1{fill:#b7b7b7;}.cls-2{font-size:65.48px;fill:#666;font-family:MyriadPro-Regular, Myriad Pro;}.cls-3{letter-spacing:-0.01em;}.cls-4{letter-spacing:-0.02em;}</style></defs><title>img placeholder</title><rect class="cls-1" width="363" height="380"/><text class="cls-2" transform="translate(38.15 209.22) scale(0.85 1)">I<tspan class="cls-3" x="15.65" y="0">M</tspan><tspan class="cls-4" x="67.64" y="0">A</tspan><tspan x="106.73" y="0">GE HERE</tspan></text></svg>
-                        <h1><a href="#">Lorem, ipsum.</a></h1>
-                        <div class="proj-desc">
-                            <span class="quote">''</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, itaque. <span class="quote">''</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-info-container">
-                        <svg id="placeholder-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 363 380"><defs><style>.cls-1{fill:#b7b7b7;}.cls-2{font-size:65.48px;fill:#666;font-family:MyriadPro-Regular, Myriad Pro;}.cls-3{letter-spacing:-0.01em;}.cls-4{letter-spacing:-0.02em;}</style></defs><title>img placeholder</title><rect class="cls-1" width="363" height="380"/><text class="cls-2" transform="translate(38.15 209.22) scale(0.85 1)">I<tspan class="cls-3" x="15.65" y="0">M</tspan><tspan class="cls-4" x="67.64" y="0">A</tspan><tspan x="106.73" y="0">GE HERE</tspan></text></svg>
-                        <h1><a href="#">Lorem, ipsum.</a></h1>
-                        <div class="proj-desc">
-                            <span class="quote">''</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, itaque. <span class="quote">''</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FOOTER SECTION-->
-        <footer class="footer-section">
-            <div class="newsletter-header">NEWSLETTER</div>
-            <div class="thin-line"></div>
-            <div class="newsletter-section">
-                Enter your email here to get my monthly newsletter
-                <input name="newsletter" type="text"/><button>Subscribe</button>
-            </div>
-        </footer>
-
-        <script >
-            const onClickMenu=()=>{
-                document.querySelector('#hamburger').classList.toggle("change")         
-                document.querySelector('#menu').classList.toggle('change')
-                document.querySelector('#menu-bg').classList.toggle('change-bg')
-            }
-        </script>
+    <div class="social-links">Social links</div>
+    <div class="email-link">Email link</div>
+    <div class="navbar">
+        <div>
+            LOGO
+        </div>
+        <div>
+            <div>Home</div>
+            <div>About</div>
+            <div>Portfolio</div>
+            <div>Contact</div>
+        </div>
+    </div>
 </body>
 </html>

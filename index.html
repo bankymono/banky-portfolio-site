@@ -6,48 +6,235 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
+<body>   
 
-    <div id="social-links" class="links">Social links</div>
-    
-    <div id="email-link" class="links">bankoleaq@gmail.com</div>
+    <div id="social-links" class="links"> 
+
+        <a href="https://www.linkedin.com/in/bankole-ayodeji-810b59101" target="_blank" ><svg id="linkedin" class="icon" xmlns="http://www.w3.org/2000/svg" height="512px" viewBox="0 0 512 512" width="512px" class=""><g><path d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h438.148438c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm-293.464844 387h-62.347656v-187.574219h62.347656zm-31.171875-213.1875h-.40625c-20.921875 0-34.453125-14.402344-34.453125-32.402344 0-18.40625 13.945313-32.410156 35.273437-32.410156 21.328126 0 34.453126 14.003906 34.859376 32.410156 0 18-13.53125 32.402344-35.273438 32.402344zm255.984375 213.1875h-62.339844v-100.347656c0-25.21875-9.027343-42.417969-31.585937-42.417969-17.222656 0-27.480469 11.601563-31.988282 22.800781-1.648437 4.007813-2.050781 9.609375-2.050781 15.214844v104.75h-62.34375s.816407-169.976562 0-187.574219h62.34375v26.558594c8.285157-12.78125 23.109375-30.960937 56.1875-30.960937 41.019531 0 71.777344 26.808593 71.777344 84.421874zm0 0" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FCBA03"/></g></svg></a>
+        <a target="_blank" href="https://www.github.com/bankymono"><svg  id="github" class="icon" xmlns="http://www.w3.org/2000/svg" id="Bold" enable-background="new 0 0 24 24" height="512px" viewBox="0 0 24 24" width="512px"><g><path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FCBA03"/></g> </svg></a>
+    </div>   
+    <a href="mailto:bankoleaq@gmail.com"><div id="email-link" class="links">bankoleaq@gmail.com</div></a> 
     <div id="line1" class="line"></div>
     <div id="line2" class="line"></div>
-    <div class="navbar">
-        <div class="logo-container">
-            <div>BA</div> 
+    <div class="content-wrapper">
+        <div class="navbar">
+            <div class="logo-container">
+                <div class="logo">BA</div> 
+            </div>
+            
+            <div class="menu-container">
+                <div id="hamburger" onclick="onClickHamburger()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <div class="menu" id="menu">
+                    <div><a href="#">Home</a></div>
+                    <div><a href="#">About</a></div>
+                    <div><a href="#">Portfolio</a></div>
+                    <div><a href="#">Memories</a></div>
+                    <div><a href="#">Contact</a></div>
+                </div>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
         </div>
+        <section class="home-section">
+            <div class="main-wrapper">
+                <p class="name-intro">Hi, my name is</p>
+                <p class="name">
+                    Bankole Ayodeji.
+                </p>
+                <p class="role">I am a backend developer and a fellow at TIIDELab.</p>
+                <p class="role-description">
+                    I love to build simple and functional program logic and easy-to-integrate APIs for frontend consumption.
+                </p>
+
+                <a href="mailto:bankoleaq@gmail.com" ><button class="get-in-touch">Get in Touch</button></a>        
+                        
+            </div> 
+        </section>
+
+        <section class="about-section">
+            <div class="main-wrapper">
+                <h2>About me</h2>
+                <div class="underline"></div>
+
+                <div class="about-me-container">
+                    <div class="about-me">I am a junior web developer. I recently enrolled in TIIDElab to hone my software skills. I am solution-oriented and I see myself building products that add value to an organization and my community.
+                        Skills include HTML, CSS, Javascript, React, Node.js.
+                        <div class="about-button">
+                            <a href="./assets/Ayodeji Bankole CV (1).pdf" target="_blank" rel="noopener noreferrer"><button>DOWNLOAD CV</button></a>
+                        </div>
+                    </div>
+                    <div class="about-image-container-border">
+                        <div class="about-image-container">
+                            <img class ="about-image" src="./assets/images/banky_about_image.png" alt="" srcset="">
+                        </div>
+                    </div>
+                    
+                    <div class="skills-and-stat">
+                        <div class="skills">
+                            <h3>Here are a few technologies I have been working with recently:</h3>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS3</li>
+                                <li>JAVASCRIPT</li>
+                            </ul>
+                        </div>
+                        <div class="stat">
+                            <h3>Some Notable Stats</h3>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dicta.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dicta.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, dicta.</li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <section class="projects-section">
+            <div class="main-wrapper">
+                <h2>What I have created</h2>
+                <div class="underline"></div>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <div class="project-description-wrapper">
+                            <h3 class="project-title">Project Title</h3>
+                            <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos numquam illo aspernatur.</div>
+                            <div class="project-links">
+                                <p class="project-link">links</p>
+                                <p class="project-link">links</p> 
+                            </div>
+                        </div>
+                        <div class="project-img-container">
+                            <svg class="project-img" xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150">
+                                <rect fill="#ddd" width="300" height="150"/>
+                                <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">300×150</text>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="description-wrapper">
+                            <h3 class="project-title">Project Title</h3>
+                            <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos numquam illo aspernatur.</div>
+                            <div class="project-links">
+                                <p class="project-link">links</p>
+                                <p class="project-link">links</p> 
+                            </div>
+                        </div>
+                        <div class="project-img-container">
+                            <svg class="project-img" xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150">
+                                <rect fill="#ddd" width="300" height="150"/>
+                                <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">300×150</text>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="description-wrapper">
+                            <h3 class="project-title">Project Title</h3>
+                            <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos numquam illo aspernatur.</div>
+                            <div class="project-links">
+                                <p class="project-link">links</p>
+                                <p class="project-link">links</p> 
+                            </div>
+                        </div>
+                        <div class="project-img-container">
+                            <svg class="project-img" xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150">
+                                <rect fill="#ddd" width="300" height="150"/>
+                                <text fill="rgba(0,0,0,0.5)" font-family="sans-serif" font-size="30" dy="10.5" font-weight="bold" x="50%" y="50%" text-anchor="middle">300×150</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials-section">
+            <div class="main-wrapper">
+                <div class="testimonials">
+                    <h2 class="testimonial-header">What my clients say:</h2>
+                    <div class="underline"></div>
+                    <div class="testimonials-container">
+                        <div class="testimonial-card">
+                            <img src="" alt="">
+                            <h3 class="name">Lorem, ipsum.</h3>
+                            <div>
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates autem optio assumenda illo numquam!"
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <img src="" alt="">
+                            <h3 class="name">Lorem, ipsum.</h3>
+                            <div>
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates autem optio assumenda illo numquam!"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="moments-section">
+            <div class="main-wrapper">
+                <div class="moments">   
+                    <h2>Moments</h2>
+                    <div class="underline"></div>
+                    <div class="moments-container">
+                        <img src="./assets/images/banky_image_55.jpeg" alt="banky_image_70">
+                        <img src="./assets/images/banky_image_43.jpeg" alt="image-3">
+                        <img src="./assets/images/banky_image_52.jpeg" alt="image-3">
+                        <img src="./assets/images/banky_image_58.jpeg" alt="image-4">
+                        <img src="./assets/images/banky_image_62.jpeg" alt="image-5">
+                        <img src="./assets/images/banky_image_65.jpeg" alt="image-6">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="main-wrapper">
+                <h2>Get in touch</h2>
+                <div class="underline"></div>
+                <div class="contact-container">
+                    <div>
+                        <h3>Find me on:</h3> 
+                        <div>contact 1</div>
+                        <div>contact 2</div>
+                    </div>
+                    <form action="" class="contact-form">
+                        <input type="email" name="email" class="contact-input" placeholder="Enter Your Email">
+                        <input type="email" name="subject" class="contact-input" placeholder="Subject">
+                        <textarea name="body" id="" class="contact-input" cols="30" rows="10"></textarea>
+                        <button class="form-submit-button">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
         
-        <div class="menu-container">
-            <div class="hamburger">
-                <div id="bar1" class="bar"></div>
-                <div id="bar2" class="bar"></div>
-                <div id="bar3" class="bar"></div>
+
+        <footer class="footer-section">
+            <div class="main-wrapper">
+                <div class="footer-wrapper">
+                    <h3>Subscribe To Our Newsletter</h3>
+                    <form action="" class="contact-form">
+                        <input type="email" name="newsletter" class="contact-input" placeholder="Enter Your Email to subscribe">
+                        <button class="form-submit-button">Subscribe</button>
+                    </form>
+                </div>
             </div>
-            <div>
-                <div>Home</div>
-                <div>About</div>
-                <div>Portfolio</div>
-                <div>Memories</div>
-                <div>Contact</div>
-            </div>
-        </div>
+        </footer>
     </div>
-    <section class="home-section">
-        HOME/INTRO
-    </section>
-    <section class="about-section">
-        ABOUT
-    </section>
-    <section class="about-section">
-        WHAT I HAVE CREATED
-    </section>
-    <section class="memories-section">
-        MEMORIES
-    </section>
-    <section class="contact-section">
-        CONTACT
-    </section>
+
+    <script>
+        function onClickHamburger(){
+            document.querySelector('#hamburger').classList.toggle("change")
+            document.querySelector('#menu').classList.toggle('change')
+            document.querySelector('#menu-bg').classList.toggle('change-bg')
+        }
+    </script>
 </body>
 </html>

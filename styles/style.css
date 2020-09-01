@@ -2,7 +2,6 @@
 *{
     margin:0;
     padding: 0;
-
     font-family: helvetica,verdana,arial, 'Russo One', sans-serif;
 }
 
@@ -54,6 +53,7 @@ body{
     transform: rotateZ(90deg);
     cursor: pointer;
 }
+
 .line{
     position: fixed;
     width: 1px;
@@ -82,10 +82,10 @@ body{
 }
 
 .navbar{
-    flex-direction: row;
+
     padding: 0 50px;
-    justify-content: space-between;
     height: 12vh;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-color: #222222;
@@ -353,9 +353,6 @@ h2{
     gap: 50px;
     grid-template-columns: 1fr;
     color: #999999;
-
-    -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.51);
-    -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.51);
     box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.51);
 }
 .project-description-wrapper{
@@ -392,9 +389,6 @@ h2{
 
     grid-template-columns: 1fr;
     color: #999999;
-
-    -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.51);
-    -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.51);
     box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.51);
 }
 
@@ -469,8 +463,6 @@ h2{
     flex: 1;
 }
 
-}
-
 @media screen and (min-width: 1000px){
     .main-wrapper{
         width: calc(100% - 400px);
@@ -501,9 +493,6 @@ h2{
         display: grid;
         gap: auto;
         grid-template-columns: 1fr 1fr;
-    
-        -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.51);
-        -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.51);
         box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.51);
     }
 
@@ -536,4 +525,6 @@ h2{
         background-color: #222;
         padding: 15px;
     }
+}
+
 }

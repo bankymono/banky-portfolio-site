@@ -17,7 +17,7 @@ body{
     max-width: 100%;
 }
 
-/*
+
 .links{
     position: fixed;
     color: #fcba03;
@@ -246,7 +246,6 @@ body{
 }
 
 
-
 .role-description{
     color: #999999 /*#807861 /*#fffdf7*/    ;
     font-size: 1.2rem;
@@ -266,6 +265,7 @@ body{
     border: #fcba03 solid 1px;
     border-radius: 8px;
 }
+
 /*
 
 .skills-and-stat{
@@ -283,6 +283,7 @@ body{
     font-size: 1.2rem;
     padding: 5px;
 }
+*/
 
 h3{ 
     font-size: 1.5rem;
@@ -299,6 +300,7 @@ h2{
     font-size: 3rem;
     margin-bottom: 5px;
 }
+
 .underline{
     width: 100px;
     height: 2px;
@@ -312,29 +314,35 @@ h2{
 }
 
 .about-image-container-border{
-    width: 250px;
-    height: 300px;
-    padding-left: 15px;
-    padding-top: 15px;
+    width: 80%;
+    height: 80%;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
     background-color: #fcba03;
     margin: auto;
+    max-width: 250px;
 }
-.about-image-container{
-    height: 400px;
-    width: 300px;
 
+.about-image-container{
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
 }
+
 .about-image{
     display: block;
-    width: 300px;
-    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    max-width: 300px;
 }
 
+
 .about-me{
-    color: #999999 /*#f2e7c7;
+    color: #999999 /*#f2e7c7*/;
     font-size: 1.2rem;
-    line-height: 50px;
 }
+
+
 .about-button a button{
     cursor: pointer;
     padding:20px 60px;
@@ -477,6 +485,7 @@ h2{
     margin-right:10px ;
     flex: 1;
 }
+*/
 
 @media screen and (min-width: 1000px){
     .main-wrapper{
@@ -487,6 +496,12 @@ h2{
     .links,.line{
         display: block;
     } 
+
+    .name,.role{
+        color: #f2e7c7;
+        font-size: 3.0rem;
+        font-weight: 900;
+    }
 
     .skills-and-stat{
         grid-column: 1 / span 2;
@@ -500,6 +515,25 @@ h2{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 50px;
+    }
+    .about-image-container-border{
+        width: 250px;
+        height: 300px;
+        padding-left: 15px;
+        padding-top: 15px;
+        background-color: #fcba03;
+        margin: auto;
+    }
+    
+    .about-image-container{
+        height: 400px;
+        width: 300px;
+    }
+    
+    .about-image{
+        display: block;
+        width: 300px;
+        height: 350px;
     }
     .project-card{
         background-color: #333333;

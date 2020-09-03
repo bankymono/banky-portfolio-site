@@ -399,14 +399,14 @@ h2{
 
 .testimonials-container{
     margin-top: 50px;
-    display: flex;
-    gap: 100px;
+    display: grid;
+    gap: 1rem;
 }
 
 .testimonial-card{
     background-color: #333333;
     border-radius: 8px;
-    padding: 50px;
+    padding: 50px 1rem;
     grid-template-columns: 1fr;
     color: #999999;
     box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.51);

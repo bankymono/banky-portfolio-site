@@ -369,7 +369,7 @@ h2{
 .project-card{
     background-color: #333333;
     border-radius: 8px;
-    padding: 50px;
+    padding: 50px 1rem;
     display: grid;
     gap: 50px;
     grid-template-columns: 1fr;

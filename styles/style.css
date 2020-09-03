@@ -354,7 +354,8 @@ h2{
     border-radius: 8px;
 }
 
-/* Projects section 
+/* Projects section*/
+ 
 .projects-section{
     margin-top: 200px;
 }
@@ -391,7 +392,7 @@ h2{
     margin-right: 15px;
 }
 
-/* Testimonials section 
+/* Testimonials section*/ 
 .testimonials-section{
     margin-top: 200px;
 }
@@ -406,7 +407,6 @@ h2{
     background-color: #333333;
     border-radius: 8px;
     padding: 50px;
-
     grid-template-columns: 1fr;
     color: #999999;
     box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.51);

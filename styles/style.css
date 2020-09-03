@@ -489,12 +489,12 @@ h2{
     margin-right:10px ;
     flex: 1;
 }
-*/
+
 
 @media screen and (min-width: 1000px){
     .main-wrapper{
         width: calc(100% - 400px);
-        margin-left:200px;
+        margin-left : 200px;
         margin-right: 200px;
      }  
     .links,.line{

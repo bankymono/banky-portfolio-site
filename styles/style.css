@@ -555,7 +555,7 @@ h2{
         grid-template-columns: 1fr 1fr 1fr;
     }
     .project-img{
-        margin-left:200px;
+        margin-left:5rem;
     }
     .contact-container{
         margin-top: 100px;

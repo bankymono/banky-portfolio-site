@@ -43,12 +43,12 @@ body{
     top: -250px;
     left: 50px;
     }
+
 .icon{
     color: #fcba03;
     width: 25px;
     transform: rotateZ(90deg);
 }
-
 
 #email-link{
     right: 80px; 
@@ -85,14 +85,14 @@ body{
 }*/
 
 .navbar{
-    padding: 0 50px;
+    padding: 1.2rem 50px;
     position: -webkit-sticky;
     position: -ms-sticky;
     position: -moz-sticky;   
     position: -o-sticky;   
     position: sticky;
     top: 0;
-    background-color: /*#222222*/ blue;
+    background-color: #222222;
 }
 
 .logo-container{
@@ -101,7 +101,7 @@ body{
     width: 48px;
     height: 48px;
     align-items: center;
-    background-color: red;
+
 }
 
 .logo{
@@ -182,8 +182,6 @@ body{
 
 
 
-
-
 .menu-container{
     z-index: 2;
 }
@@ -195,7 +193,7 @@ body{
     right: 0;
     transform: translate(50px,-30%);    
     
-    }
+}
 
 .menu div {
     padding: 16px 0;
@@ -210,11 +208,11 @@ body{
     font-weight: bold;
 }
 
-.change{
+.change {
     display: block;
 }
 
-.change .bar{
+.change .bar {
     background-color: white;
 }
 
@@ -229,11 +227,10 @@ body{
 .change #bar2{
     opacity: 0;
 }
-/*
-.home-section{
-    margin-top: 100px;
-}
 
+.home-section{
+    margin-top: 1.2rem;
+}
 
 .home-section .name-intro{
     color: #fcba03;
@@ -244,8 +241,16 @@ body{
 
 .name,.role{
     color: #f2e7c7;
-    font-size: 3rem;
+    font-size: 1.7rem;
     font-weight: 900;
+}
+
+
+
+.role-description{
+    color: #999999 /*#807861 /*#fffdf7*/    ;
+    font-size: 1.2rem;
+    padding: 1rem 0;
 }
 
 .get-in-touch{
@@ -261,12 +266,7 @@ body{
     border: #fcba03 solid 1px;
     border-radius: 8px;
 }
-
-.role-description{
-    color: #999999 /*#807861 /*#fffdf7;
-    font-size: 1.2rem;
-    padding: 1rem 0;
-}
+/*
 
 .skills-and-stat{
     background-color: #333;
@@ -540,6 +540,4 @@ h2{
         background-color: #222;
         padding: 15px;
     }
-}
-
 }

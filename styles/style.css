@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+
 *{
     margin:0;
     padding: 0;
@@ -14,6 +17,7 @@ body{
     max-width: 100%;
 }
 
+/*
 .links{
     position: fixed;
     color: #fcba03;
@@ -24,7 +28,6 @@ body{
     left: 80px; 
     transform-origin: left;
     transform: rotateZ(-90deg);
-
 }
 
 #linkedin{    
@@ -75,44 +78,44 @@ body{
     display: none;
 }
 
-.content-wrapper{
+/*.content-wrapper{
     display: grid;
     grid-template-columns: 1fr;
 
-}
+}*/
 
 .navbar{
-
     padding: 0 50px;
-    height: 12vh;
     position: -webkit-sticky;
+    position: -ms-sticky;
+    position: -moz-sticky;   
+    position: -o-sticky;   
     position: sticky;
     top: 0;
-    background-color: #222222;
+    background-color: /*#222222*/ blue;
 }
+
 .logo-container{
-    margin: 20px 0;
     display: flex;
     justify-content: center;
-    width: 100px;
-    align-items: center;    
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    background-color: red;
 }
+
 .logo{
     cursor: pointer;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
     background-color: #fcba03;
     text-align: center;
-    padding: 20px;
-    border: solid white 2px;
+    border: solid white 3px;
     border-radius: 50%;
     color: white;
+    width: 48px;
+    
 }
-
-.main-wrapper{
-    width: calc(100% - 100px);
-    margin-left:50px;
-    margin-right: 50px;
-}
-
 
 #hamburger{
     width: 35px;    
@@ -169,6 +172,18 @@ body{
 }
 
 
+
+.main-wrapper{
+    width: calc(100% - 100px);
+    margin-left:50px;
+    margin-right: 50px;
+
+}
+
+
+
+
+
 .menu-container{
     z-index: 2;
 }
@@ -214,7 +229,7 @@ body{
 .change #bar2{
     opacity: 0;
 }
-
+/*
 .home-section{
     margin-top: 100px;
 }
@@ -248,7 +263,7 @@ body{
 }
 
 .role-description{
-    color: #999999 /*#807861 /*#fffdf7*/;
+    color: #999999 /*#807861 /*#fffdf7;
     font-size: 1.2rem;
     padding: 1rem 0;
 }
@@ -316,7 +331,7 @@ h2{
 }
 
 .about-me{
-    color: #999999 /*#f2e7c7*/;
+    color: #999999 /*#f2e7c7;
     font-size: 1.2rem;
     line-height: 50px;
 }
@@ -334,7 +349,7 @@ h2{
     border-radius: 8px;
 }
 
-/* Projects section */
+/* Projects section 
 .projects-section{
     margin-top: 200px;
 }
@@ -371,7 +386,7 @@ h2{
     margin-right: 15px;
 }
 
-/* Testimonials section */
+/* Testimonials section 
 .testimonials-section{
     margin-top: 200px;
 }

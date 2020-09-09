@@ -183,7 +183,6 @@ body{
     opacity: 0;
 }
 
-
 .menu{
     text-align: right;
 }
@@ -286,14 +285,6 @@ body{
 }
 
 
-.main-wrapper{
-    width: calc(100% - 100px);
-    margin-left:50px;
-    margin-right: 50px;
-
-}
-
-
 .menu-container{
     z-index: 2;
 }
@@ -346,6 +337,13 @@ body{
     opacity: 0;
 }
 */
+
+.main-wrapper{
+    width: calc(100% - 100px);
+    margin-left:50px;
+    margin-right: 50px;
+
+}
 
 .home-section{
     margin-top: 1.2rem;

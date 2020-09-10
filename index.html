@@ -30,17 +30,17 @@
                     <div id="bar3" class="bar"></div>
                 </div>
                 <ul class="menu">
-                    <li class="menu-item"><a  class="menu-link" href="#">Home</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">About</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">Portfolio</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">Memories</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">Contact</a></li>
+                    <li class="menu-item"><a  class="menu-link" href="#home">Home</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#about">About</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#projects">Portfolio</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#moments">Moments</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
             <!-- <div class="menu-bg" id="menu-bg"></div> -->
         </div>
-        
-        <section class="home-section">
+        <div class="gen-container">
+        <section id="home" class="home-section">
             <div class="main-wrapper">
                 <p class="name-intro">Hi, my name is</p>
                 <p class="name">
@@ -56,7 +56,7 @@
             </div> 
         </section>
 
-        <section class="about-section">
+        <section id="about" class="about-section">
             <div class="main-wrapper">
                 <h2>About me</h2>
                 <div class="underline"></div>
@@ -67,15 +67,7 @@
                         <div class="about-button">
                             <a href="./assets/Ayodeji Bankole CV (1).pdf" target="_blank" rel="noopener noreferrer"><button>DOWNLOAD CV</button></a>
                         </div>
-                    </div>
-                    <div class="about-image-container-border">
-                        <div class="about-image-container">
-                            <img class ="about-image" src="./assets/images/banky_about_image.png" alt="" srcset="">
-                        </div>
-                    </div>
-                    
-                    <div class="skills-and-stat">
-                        <div class="skills">
+                        <div class="skills"> 
                             <h3>Here are a few technologies I have been working with recently:</h3>
                             <ul>
                                 <li>HTML</li>
@@ -83,6 +75,23 @@
                                 <li>JAVASCRIPT</li>
                             </ul>
                         </div>
+                    </div>
+                    
+                    <div class="about-image-container-border">
+                        <div class="about-image-container">
+                            <img class ="about-image" src="./assets/images/banky_about_image.png" alt="" srcset="">
+                        </div>
+                    </div>
+                    
+                    <div class="skills-and-stat">
+                        <!-- <div class="skills"> 
+                            <h3>Here are a few technologies I have been working with recently:</h3>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS3</li>
+                                <li>JAVASCRIPT</li>
+                            </ul>
+                        </div>-->
                         <!--<div class="stat">
                             <h3>Some Notable Stats</h3>
                             <ul>
@@ -95,7 +104,7 @@
             </div>
         </section>
 
-        <section class="projects-section">
+        <section id="projects" class="projects-section">
             <div class="main-wrapper">
                 <h2>What I have created</h2>
                 <div class="underline"></div>
@@ -153,7 +162,8 @@
                 </div>
             </div>
         </section>
-        <section class="testimonials-section">
+
+        <section  class="testimonials-section">
             <div class="main-wrapper">
                 <div class="testimonials">
                     <h2 class="testimonial-header">What my clients say:</h2>
@@ -178,7 +188,7 @@
             </div>
         </section>
 
-        <section class="moments-section">
+        <section id="moments" class="moments-section">
             <div class="main-wrapper">
                 <div class="moments">   
                     <h2>Moments</h2>
@@ -195,7 +205,7 @@
             </div>
         </section>
 
-        <section class="contact-section">
+        <section id="contact" class="contact-section">
             <div class="main-wrapper">
                 <h2>Get in touch</h2>
                 <div class="underline"></div>
@@ -215,7 +225,7 @@
 
             </div>
         </section>
-
+    </div>
         
 
         <footer class="footer-section">

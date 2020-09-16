@@ -8,10 +8,7 @@
 
 }
 
-html {
-    scroll-behavior: smooth;
 
-}
 
 img,video,object{
     max-width: 100%;
@@ -140,7 +137,7 @@ body{
     top: 0px;
     right: -50%;
     padding-top: 75px;
-    padding-right: 50px;
+    padding-right: 0px;
     padding-left: 10px;
     padding-bottom: 50px;
     /* display: flex; */
@@ -172,7 +169,8 @@ body{
 
 .change{
     right: 0;
-}
+    padding-right: 50px;
+    }
 
 .change .bar{
     background-color: #222;
@@ -354,7 +352,7 @@ body{
 
 .home-section{
     margin-top: 1.2rem;
-    background-color: red;
+
 }
 
 .home-section .name-intro{
@@ -581,6 +579,19 @@ h2{
     display: grid;
 }
 
+.contact-container .fab{
+    text-align: left;
+    background-color: red;
+    color: #2867B2;
+    font-size: 3rem;
+    transform: rotateZ(0deg);
+}
+
+.contact-container .fas, .contact-container div{
+    color: #fff;
+    font-size: 3rem;
+    transform: rotateZ(0deg);
+}
 .contact-container form{
     display: flex;
     flex-direction: column;

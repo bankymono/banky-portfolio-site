@@ -5,6 +5,7 @@
     margin:0;
     padding: 0;
     font-family: helvetica,verdana,arial, 'Russo One', sans-serif;
+    box-sizing: border-box;
 
 }
 
@@ -579,24 +580,58 @@ h2{
     display: grid;
 }
 
-.contact-container .fab{
-    text-align: left;
-    background-color: red;
-    color: #2867B2;
-    font-size: 3rem;
-    transform: rotateZ(0deg);
+.contact-info{
+    display: flex;
+    flex-direction: column;
 }
 
-.contact-container .fas, .contact-container div{
+.contact-info > div {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.contact-details{
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #f2e7c7; 
+    margin-left: 20px;
+}
+
+.contact-details p:first-child{
+    color: #fcba03;
+}
+
+.contact-details p{
+    color: #999999;
+}
+
+.contact-container .far,.fas{
+    text-align: left;
+    color: #f2e7c7;
+    font-size: 2rem;
+    transform: rotateZ(0deg);
+    z-index: -1;
+}
+
+
+.contact-form-container .message-me{
+    color:#d9d9d9;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.contact-form{ 
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .contact-container .fas, .contact-container div{
     color: #fff;
     font-size: 3rem;
     transform: rotateZ(0deg);
-}
-.contact-container form{
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-}
+} */
 
 .contact-input{
     border: #fcba03 solid 1px;
@@ -626,20 +661,30 @@ h2{
 .footer-section{
     margin-top: 200px;
     background-color: #333333;
+    padding: 1px;
 }
 
-.footer-wrapper{
+
+.footer-wrapper h3{
     margin-top: 50px;
 }
 
+
 .footer-wrapper form{
     display: flex;
+    flex-direction: row;
     padding-bottom:40px ;
 }
 
 .footer-wrapper form input{
     margin-right:10px ;
     flex: 1;
+}
+
+.footer-section .trademark {
+    margin: 10px auto;
+    color: #d9d9d9;
+    text-align: center;
 }
 
 
@@ -718,7 +763,6 @@ h2{
     .contact-container form{
         display: flex;
         flex-direction: column;
-
     }
     
     .contact-input{

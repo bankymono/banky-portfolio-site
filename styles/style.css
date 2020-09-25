@@ -588,14 +588,13 @@ h2{
 .contact-info > div {
     display: flex;
     flex-direction: row;
-    margin: 10px;
 }
 
 .contact-details{
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: lighter;
     color: #f2e7c7; 
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .contact-details p:first-child{
@@ -609,13 +608,14 @@ h2{
 .contact-container .far,.fas{
     text-align: left;
     color: #f2e7c7;
-    font-size: 2rem;
+    font-size: 1rem;
     transform: rotateZ(0deg);
     z-index: -1;
 }
 
 
 .contact-form-container .message-me{
+    margin-top: 20px;
     color:#d9d9d9;
     font-weight: 700;
     font-size: 1.5rem;
@@ -774,5 +774,19 @@ h2{
         border-radius: 5px;
         background-color: #222;
         padding: 15px;
+    }
+
+    .contact-details{
+        font-size: 2rem;
+        font-weight: lighter;
+        color: #f2e7c7; 
+        margin-left: 20px;
+    }
+    .contact-container .far,.fas{
+        text-align: left;
+        color: #f2e7c7;
+        font-size: 2rem;
+        transform: rotateZ(0deg);
+        z-index: -1;
     }
 }

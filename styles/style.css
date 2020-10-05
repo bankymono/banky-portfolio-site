@@ -34,13 +34,13 @@ body{
     transform: rotateZ(-90deg);
 }
 
-.fab{
+#social-links .fab{
     color: #fcba03;
     font-size: 30px;
     transform: rotateZ(90deg);
 }
 
-.fa-linkedin,.fa-github{    
+#social-links .fa-linkedin,.fa-github{    
    margin: 0 10px 0 50px;
 }
 
@@ -528,6 +528,20 @@ h2{
 .project-links{
     display: flex;
     flex-direction: row;
+}
+
+.project-links .fab{
+    color: white;
+    font-size: 30px;
+}
+
+.project-links .fas{
+    color: white;
+    font-size: 30px;
+}
+
+.project-links .fa-link,.fa-github{    
+   margin: 0 10px 0 50px;
 }
 
 .project-link{
